@@ -1,10 +1,19 @@
 import React from 'react'
 import styles from "./Search.module.css"
-import { FaSearch } from "react-icons/fa"
 import { useState } from "react"
 import {useHistory} from "react-router";
 import { useEffect } from 'react';
 import {useQuery} from "../Hooks/useQuery";
+//query
+import {} from "./Query1000.css"
+import {} from "./Query950.css"
+import {} from "./Query900.css"
+import {} from "./Query800.css"
+import {} from "./Query700.css"
+import {} from "./Query600.css"
+import {} from "./Query450.css"
+
+
 
 function Search() {
     const query = useQuery() ; 
@@ -26,8 +35,8 @@ function Search() {
     };
     return (
         <form className={styles.searchConteiner} onSubmit={handleSubmit}>
-            <div className={styles.searchBox}>
-                <input className={styles.searchInput}
+            <div id='moverr' className={styles.searchBox}>
+                <input id='mover' className={styles.searchInput}
                     type="text"
                     value={search}
                     onChange={(e) => {

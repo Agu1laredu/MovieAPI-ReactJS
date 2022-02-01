@@ -1,6 +1,7 @@
 import React from 'react'
 import style from './componets/App.module.css'
 
+
 //routerdom
 import {
    BrowserRouter as Router,
@@ -15,7 +16,7 @@ function App() {
    return (
       <Router>
          <header>
-            <Link to="/"><h1 className={style.title}>START MOVIE PLUS</h1></Link>
+            <Link to="/"><h1 id='tittle' className={style.title}>START MOVIE PLUS</h1></Link>
 
          </header>
          <main>
