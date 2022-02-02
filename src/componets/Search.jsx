@@ -12,7 +12,7 @@ import {} from "./Query800.css"
 import {} from "./Query700.css"
 import {} from "./Query600.css"
 import {} from "./Query450.css"
-
+ 
 
 
 function Search() {
@@ -34,7 +34,7 @@ function Search() {
         history.push("/?search=" + searchText);
     };
     return (
-        <form className={styles.searchConteiner} onSubmit={handleSubmit}>
+        <form id='moverrr' className={styles.searchConteiner} onSubmit={handleSubmit}>
             <div id='moverr' className={styles.searchBox}>
                 <input id='mover' className={styles.searchInput}
                     type="text"
